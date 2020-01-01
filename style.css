@@ -1,0 +1,197 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+
+
+/*= header =*/
+
+header 
+{
+  text-align:center;
+}
+
+nav ul 
+{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #cccccc;
+  
+}
+
+nav>ul>li>a,h1,h2,h3
+{
+ font-family: Amatic SC;
+ 
+}
+
+h2{
+  margin: 30px;
+}
+
+ul
+{
+  list-style:none;
+}
+
+section ul
+{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    height:130px;
+    margin: 30px;
+}
+
+
+
+li p:first-letter
+{
+  color:red;
+  font-size:20px;
+}
+
+.li1 {
+  background-color: none;
+  margin-left: -40px;
+}
+.li2 {
+  background-color: none;
+  margin-left: 40px;
+}
+.li3 {
+  background-color: none;
+  margin-left: 40px;
+}
+
+section 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+background-color: rgba(255,245,238, 0.8);
+  
+}
+
+img /* archer girl */
+{
+	width: 400px;
+	height: 250px;
+  margin-right: 20px;
+  }
+
+
+
+#element /* archer girl + text archergirl */
+{
+  
+  display: flex;
+  margin-left: 20px;
+  
+  
+}
+
+.textarcher /* text archer girl */
+{
+ display: inline-block;
+ width: 23%;
+ text-align: justify;
+  
+  
+}
+
+.element3 /* martine */
+{
+  width: 370px;
+	height: 477px;
+  box-align: center;
+  align-items: center;
+  box-pack: center;
+  justify-content: center;  
+    
+  
+}
+
+.element4 /* text martine */
+{
+ display: inline-block;
+}
+
+.table1{
+  float:left;
+  font-size:20px;
+  color:black;
+  padding: 60px 90px 0px 120px;
+  text-align:center;
+  margin: 30px 30px 30px 30px;
+  
+  }
+td{
+  border: 1px solid black;
+}
+
+form#myform label 
+{ 
+  
+  display:inline-block;
+  width:100px; 
+  text-align:left;
+  padding:0px 0px 15px 0px;
+}
+
+
+
+footer 
+{
+   text-align: center;
+    background-color: grey;
+}
+  
+form#myform label 
+{ 
+  
+  display:inline-block;
+  width:111px; 
+  text-align:right;
+  padding:5px 5px 15px 50px;
+  
+}
+
+.logo2
+{
+  margin:auto;
+  width: 300px;
+	height: 50px;
+}
+
+a{
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px; }
+
+body {
+ 
+    background-color: #cccccc;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.formulaire
+{
+  margin: 30px;
+}
