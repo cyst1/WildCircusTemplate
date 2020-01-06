@@ -13,7 +13,6 @@ header
 nav ul 
 {
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   background-color: #cccccc;
   
@@ -106,9 +105,7 @@ img /* archer girl */
 {
   width: 370px;
 	height: 477px;
-  box-align: center;
   align-items: center;
-  box-pack: center;
   justify-content: center;  
     
   
@@ -131,17 +128,6 @@ img /* archer girl */
 td{
   border: 1px solid black;
 }
-
-form#myform label 
-{ 
-  
-  display:inline-block;
-  width:100px; 
-  text-align:left;
-  padding:0px 0px 15px 0px;
-}
-
-
 
 footer 
 {
